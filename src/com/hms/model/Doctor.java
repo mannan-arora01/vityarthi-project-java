@@ -1,0 +1,19 @@
+package com.hms.model;
+
+public class Doctor extends Person {
+    private String specialization;
+
+    public Doctor(String id, String name, int age, String specialization) {
+        super(id, name, age);
+        this.specialization = specialization;
+    }
+
+    public String getSpecialization() {
+        return specialization;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + " | Spec: " + specialization;
+    }
+}
