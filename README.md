@@ -1,3 +1,6 @@
+# Mannan Arora
+# 24BAS10066
+
 # Hospital Management System (HMS)
 
 A console-based application to digitize hospital operations, replacing paper records with a secure, efficient digital system.
@@ -75,4 +78,5 @@ The project includes a custom automated test runner (`TestRunner.java`) to verif
 
 ### 2. Booking an Appointment
 ![Booking Flow](screenshots/booking_flow.png)
+
 *Demonstration of successful appointment scheduling with validation.*
